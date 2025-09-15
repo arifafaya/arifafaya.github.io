@@ -61,7 +61,9 @@
   }
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 /* Reset default margin & font */
 * {
