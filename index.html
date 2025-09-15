@@ -3,47 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Saya | Arifa Farras Fadhila</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #BDB76B; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
-    h1 { color: #333; }
-    h2 { color: #444; margin-top: 30px; }
-    .project { margin-bottom: 15px; }
-  </style>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Halo, Saya Arifa Farras Fadhila 👋</h1>
-    <p>Data Analyst | Machine Learning Enthusiast </p>
-
-    <h2>About Me</h2>
-    <p>Saya seorang Data Analyst dengan latar belakang Informatika. Berpengalaman dalam data entry, machine learning (SVM, Fuzzy Logic, ACO), dan visualisasi data (Power BI & Python).</p>
-
-    <h2>Skills</h2>
+  <!-- Navbar -->
+  <nav class="navbar">
     <ul>
-      <li>Python (Pandas, Numpy, Scikit-learn, Matplotlib)</li>
-      <li>SQL (MySQL, PostgreSQL)</li>
-      <li>Data Visualization ( Power BI, Matplotlib)</li>
-      <li>Excel & Google Sheets</li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CONTACT</a></li>
     </ul>
+  </nav>
 
-    <h2>Projects</h2>
-    <div class="project">
-      <strong>📊 Fuzzy Tsukamoto untuk Kualitas Cengkeh</strong> – <a href="#">GitHub Repo</a>
-    </div>
-    <div class="project">
-      <strong>🤖 SVM untuk Nutrisi Pasien</strong> – <a href="#">GitHub Repo</a>
-    </div>
-    <div class="project">
-      <strong>🐜 Ant Colony Optimization untuk Rute Optimal</strong> – <a href="#">GitHub Repo</a>
-    </div>
-    <div class="project">
-      <strong>📈 Dashboard Reksadana Pasar Uang</strong> – <a href="#">Tableau Link</a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="bg-text">MY PORTFOLIO</h1>
+    
+    <div class="profile">
+      <img src="IMG_0249.jpg" alt="My Photo">
     </div>
 
-    <h2>Contact</h2>
-    <p>Email: arifafadhila22@gmail.com | <a href="https://linkedin.com/in/arifa-farras-fadhila">LinkedIn</a> | <a href="https://github.com/arifafaya">GitHub</a></p>
+    <h2>I’M ARIFA FARRAS FADHILA</h2>
+    <p class="role">DATA ENTRY SPECIALIST</p>
+    <p class="role2">DATA ANALYST & MACHINE LEARNING ENTHUSIAST</p>
+  </section>
+
+  <section class="about" id="about">
+  <div class="about-container">
+    <h2>ABOUT</h2>
+    <p>
+      I AM ARIFA FARRAS FADHILA, A DATA ANALYST WITH BOTH ACADEMIC AND PROFESSIONAL EXPERIENCE 
+      IN DATA ENTRY, PREPROCESSING, AND ADVANCED ANALYTICS. MY EXPERTISE INCLUDES PYTHON (PANDAS, 
+      NUMPY, SCIKIT-LEARN), SQL DATABASES, AND VISUALIZATION PLATFORMS LIKE TABLEAU AND POWER BI. 
+      I AIM TO APPLY MY ANALYTICAL SKILLS TO SOLVE REAL-WORLD PROBLEMS AND CONTRIBUTE TO 
+      DATA-DRIVEN STRATEGIES IN BUSINESS ENVIRONMENTS.
+    </p>
   </div>
+</section>
+
+
+<!-- Footer / Contact -->
+<footer class="footer" id="contact">
+  <h2>CONTACT</h2>
+  <p>Email: <a href="mailto:arifafadhila22@gmail.com">arifafadhila22@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/arifa-farras-fadhila" target="_blank">linkedin.com/in/arifa-farras-fadhila</a></p>
+  <p>GitHub: <a href="https://github.com/arifafaya" target="_blank">github.com/arifafaya</a></p>
+  <p>&copy; 2025 Arifa Farras Fadhila. All rights reserved.</p>
+</footer>
+
+
+
 </body>
 </html>
