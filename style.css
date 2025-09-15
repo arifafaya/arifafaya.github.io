@@ -1,1 +1,161 @@
+/* Reset default margin & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1d4d2a;  /* hijau */
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;   /* biar nempel di atas */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #920327; /* efek hover kuning */
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f7c6d6; /* warna pink */
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  padding-top: 120px;
+}
+
+/* Background text */
+.bg-text {
+  font-size: 130px;
+  font-weight: 900;
+  color: white;
+  opacity: 0.25;     /* transparan */
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  letter-spacing: 5px;
+  font-family: Inter;
+}
+
+/* Foto profil bulat */
+.profile img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid white;
+  z-index: 1;
+  position: relative;
+}
+
+/* Teks perkenalan */
+.hero h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #165c2e; /* hijau */
+}
+
+.role {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #222;
+  font-weight: 600;
+}
+
+.role2 {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+}
+
+/* Bagian About */
+.about {
+  background-color: #f7c6d6; /* warna pink sama kayak hero */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-container {
+  background-color: #165c2e; /* hijau */
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 0 auto;  /* biar box di tengah */
+  line-height: 1.8;
+}
+
+.about-container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.about-container p {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+/* Footer Contact */
+.footer {
+  background-color: #165c2e; /* hijau */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ffd700; /* kuning emas untuk link */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 
